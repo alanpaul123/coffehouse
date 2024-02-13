@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee House</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    
+  </head>
+  <body>
+    <!--navBar -->
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container">
+        <!-- <a class="navbar-brand text-white" href="#" class="logo">Coffee House</a> -->
+        <a class="navbar-brand text-white" href="#" class="logo"><img src="https://cdn1.vectorstock.com/i/1000x1000/64/00/coffee-house-logo-vector-6006400.jpg" alt="" width="100px" height="70px"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#carouselExampleCaptions">Home</a>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link active  text-white" aria-current="page" href="#price">Beans</a>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#des">Coffees </a>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#faq">FAQ</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active text-white btn-primary" aria-current="page" href="login.html" class="">Sing-Up</a>
+            </li>
+          
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel  -->
+    <div id="carouselExampleCaptions" class="carousel slide"  data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active c-item" data-bs-interval="2000">
+          <img src="https://b.zmtcdn.com/data/collections/54a38c33ce8c62c7754e3f0b2fa6eb60_1695898538.png" class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption ">
+            <h5 class="animated bounceInRight" style="animation-delay: 1s">Coffee House</h5>
+            <p class="animated bounceInLeft d-none d-md-block " style="animation-delay: 2s" >Long before the Energy Drink</p>
+            <p class="animated bounceInRight" style="animation-delay: 3s"><a href="#">order now</a></p>
+          </div>
+        </div>
+
+
+        <div class="carousel-item c-item" data-bs-interval="2000">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Roasted_coffee_beans.jpg/1200px-Roasted_coffee_beans.jpg" class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption">
+            <h5 class="animated bounceInRight" style="animation-delay: 1s">Beans</h5>
+            <p class="animated bounceInLeft d-none d-md-block " style="animation-delay:2s" >The smell of the beans lightens up ur day</p>
+         
+          </div>
+        </div>
+
+
+        <div class="carousel-item c-item" data-bs-interval="2000">
+          <img src="https://static1.squarespace.com/static/54e730d4e4b0bc2e9a8f31d0/55815e45e4b040cf35c0fa39/5a05791ee4966b4a0839df52/1611671574453/steaming+cup+of+coffee+with+spilt+coffee+beans.jpg?format=1500w" class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption ">
+            <h5 class="animated bounceInRight" style="animation-delay: 1s">best Coffee</h5>
+            <p class="animated bounceInLeft d-none d-md-block " style="animation-delay:2s" >Order now the best Coffie in the world</p>
+      
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- card -->
+   
+
+
+
+    <!-- Cards -->
+
+    <section class="places container " id="price" data-aos="fade-right"  >
+      <h1 class="mb-5 text-center">Beans</h1>
+      <div class="conatiner-fluid">
+        <div class="row">
+          <div class="col-lg">
+            <div class="card">
+              <img
+                src="https://majestycoffee.com/cdn/shop/articles/arabica_coffee_800x.jpg?v=1684799025"
+                class="card-img-top c-imgs"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title"> Arabica Coffee</h5>
+                <p class="card-text">
+                  A unique Speciality Coffee concept originating from Japan which serves the best coffiee falvor 
+                </p>
+                <a href="#" class="btn btn-primary">Order now</a>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg">
+            <div class="card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTawYd8VeDxzwIqRf4bbrG5zzgxcRhco52-ErFYSXpnCWJaxOuRiSUW8tPYk2q2qBj27A&usqp=CAU"
+                class="card-img-top c-imgs"
+                alt=""
+              />
+              <div class="card-body">
+                <h5 class="card-title">Robusta</h5>
+                <p class="card-text">
+                  The best coffee flavor in the world and it provides them  with the utmost boost in energy
+                </p>
+                <a href="#" class="btn btn-primary">Order now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVxkTDmlxzb9fx0xf2ADqKnrdsVJ_BHSeOqQ&usqp=CAU"
+                class="card-img-top c-imgs"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Excelsa</h5>
+                <p class="card-text">
+                  the most widely used coffee flavor in the world made in the fields of lebanon.One of the most widely used flavour
+                </p>
+                <a href="#" class="btn btn-primary">Order now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card">
+              <img
+                src="https://www.tastingtable.com/img/gallery/what-makes-liberica-coffee-unique/intro-1679591419.jpg"
+                class="card-img-top c-imgs"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Liberica</h5>
+                <p class="card-text">
+                  A unique and irreplacable part of our worldwide coffee heritage, Liberica is an entirely separate species of coffee.
+                </p>
+                <a href="#" class="btn btn-primary">Order now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--Gallery -->
+    <section class="" id="des" data-aos="fade-left">
+      <div class="container container-1" >
+        <h1 class="text-center">Coffee types</h1>
+        <div class="row d-flex justify-content-center">
+
+          <div class="col-lg-4 col-sm-6 z">
+            <div class="thumbnail">
+              <div class="img-container">
+                <img src="https://www.adityabirlacapital.com/healthinsurance/active-together/wp-content/uploads/2019/12/How-Are-Espressos-Good-For-Health_blog_lower_1.png" alt="" class="image">
+                <div class="overlays">
+                  <p class="caption">Espresso</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          
+          <div class="col-lg-4 col-sm-6 z">
+            <div class="thumbnail">
+              <div class="img-container">
+                <img src="https://www.roastycoffee.com/wp-content/uploads/mBPxUtTx-735x414.jpeg" alt="" class="image">
+                <div class="overlays">
+                  <p class="caption">latte</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          
+          <div class="col-lg-4 col-sm-6 z">
+            <div class="thumbnail">
+              <div class="img-container">
+                <img src="https://img.freepik.com/free-photo/close-up-view-brown-coffee-seeds-with-coffee-dark_179666-32787.jpg" alt="" class="image">
+                <div class="overlays">
+                  <p class="caption">Black Coffee</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          
+          <div class="col-lg-4 col-sm-6 z">
+            <div class="thumbnail">
+              <div class="img-container">
+                <img src="https://images.immediate.co.uk/production/volatile/sites/2/2021/11/Mocha-1fc71f7.png?quality=90&resize=556,505" alt="" class="image">
+                <div class="overlays">
+                  <p class="caption">Mocha</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col-lg-4 col-sm-6 z">
+            <div class="thumbnail">
+              <div class="img-container">
+                <img src="https://izzycooking.com/wp-content/uploads/2022/09/Americano-Coffee-thmbnail.jpg" alt="" class="image">
+                <div class="overlays">
+                  <p class="caption">Americano</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-sm-6 z">
+            <div class="thumbnail">
+              <div class="img-container">
+                <img src="https://dairyfarmersofcanada.ca/sites/default/files/styles/recipe_image/public/image_file_browser/conso_recipe/2022/Capuccino.jpg.jpeg?itok=J1pWPwe2" alt="" class="image">
+                <div class="overlays">
+                  <p class="caption">Cappuccino</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col-lg-4 col-sm-6 z">
+            <div class="thumbnail">
+              <div class="img-container">
+                <img src="https://images.immediate.co.uk/production/volatile/sites/2/2021/11/Flat-White-d195a5f.png?resize=768,574" alt="" class="image">
+                <div class="overlays">
+                  <p class="caption">Flat White</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-sm-6 z">
+            <div class="thumbnail">
+              <div class="img-container">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9DFqqjTQ3RkotEAMXwplV9c5YY0bxoL4uMA&usqp=CAU" alt="" class="image">
+                <div class="overlays">
+                  <p class="caption">Cold brew</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col-lg-4 col-sm-6 z">
+            <div class="thumbnail">
+              <div class="img-container">
+                <img src="https://www.thehungrybites.com/wp-content/uploads/2023/06/coffee-ice-cream-frappe-frappuccino-feat.jpg" alt="" class="image">
+                <div class="overlays">
+                  <p class="caption">Frapee</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Accordian -->
+    <section id="faq" class="py-md-5"  data-aos="fade-right">
+      <h2 class="my-5 text-center">FAQ</h2>
+
+      <div class="container">
+        <div class="accordion w-75 mx-auto" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+              Can i get the beans?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Debitis reprehenderit eius tempore delectus itaque eos illum
+                  quae. In ratione nesciunt dolores mollitia porro. Sit
+                  asperiores id atque iure. Velit, dolor!
+                </p>
+                .
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Most popular flavors ?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Maxime accusamus quis repellendus et dolor assumenda, fugiat
+                  repellat quidem eligendi delectus, tempora facilis quos
+                  architecto eos. Possimus, deleniti. Veniam, optio odit?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+            is there a vending machine?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
+                iusto ducimus corrupti accusamus eaque eos laudantium, cum,
+                sapiente eveniet, praesentium iste totam suscipit explicabo
+                consectetur porro sequi qui rerum omnis?
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonail section -->
+<div class="testimonials" >
+  <div class="inner">
+    <h1>Testimonials</h1>
+    <div class="border"></div>
+    <div class="rows">
+
+      
+      <div class="cols">
+        <div class="testimonial">
+          <img src="https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg" alt="">
+          <div class="name">Mike</div>
+          <div class="stars">
+            <i class="fa-regular fas fa-star"></i>
+            <i class="fa-regular fas fa-star"></i>
+            <i class="fa-regular fas fa-star"></i>
+            <i class="fa-regular fas fa-star"></i>
+            <i class="fa-regular fas fa-star"></i>
+          </div>
+
+          <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet ea beatae tempore optio voluptatum, aliquam magnam voluptate, numquam exercitationem vitae, saepe aspernatur sequi perspiciatis. Reiciendis minus consectetur praesentium magnam repellat"</p>
+        </div>
+      </div>
+
+
+      <div class="cols">
+        <div class="testimonial">
+          <img src="https://www.georgetown.edu/wp-content/uploads/2022/02/Jkramerheadshot-scaled-e1645036825432-1050x1050-c-default.jpg" alt="">
+          <div class="name">Lu</div>
+          <div class="stars">
+            <i class="fa-regular fas fa-star"></i>
+            <i class="fa-regular fas fa-star"></i>
+            <i class="fa-regular fas fa-star"></i>
+            <i class="fa-regular fas fa-star"></i>
+            <i class="fa-regular  fa-star"></i>
+          </div>
+
+          <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet ea beatae tempore optio voluptatum, aliquam magnam voluptate, numquam exercitationem vitae, saepe aspernatur sequi perspiciatis. Reiciendis minus consectetur praesentium magnam repellat"</p>
+        </div>
+      </div>
+
+
+      <div class="cols">
+        <div class="testimonial">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBlPlpTtK_z4wQ4W74DmV5pxpZYatxBAmzrg&usqp=CAU" alt="">
+          <div class="name">John</div>
+          <div class="stars">
+            <i class="fa-regular fas fa-star"></i>
+            <i class="fa-regular fas fa-star"></i>
+            <i class="fa-regular fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+
+          <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet ea beatae tempore optio voluptatum, aliquam magnam voluptate, numquam exercitationem vitae, saepe aspernatur sequi perspiciatis. Reiciendis minus consectetur praesentium magnam repellat"</p>
+        </div>
+      </div>
+
+
+      <div class="cols">
+        <div class="testimonial">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbHZK2WFLWc_LMd_OPFnxwQJ_97Aa1QqNbIQ&usqp=CAU" alt="">
+          <div class="name">Linda</div>
+          <div class="stars">
+            <i class="fa-regular fas fa-star"></i>
+            <i class="fa-regular fas fa-star"></i>
+            <i class="fa-regular fas fa-star"></i>
+            <i class="fa-regular  fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+
+          <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet ea beatae tempore optio voluptatum, aliquam magnam voluptate, numquam exercitationem vitae, saepe aspernatur sequi perspiciatis. Reiciendis minus consectetur praesentium magnam repellat"</p>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+      
+
+
+    </div>
+  </div>
+</div>
+
+
+     
+    
+
+
+
+
+    <!-- Footer -->
+    <footer id="foo" class="bg-secondary">
+      <ul>
+        <li class="lis">Company</li>
+        <li class="lis">get it</li>
+        <li class="lis">Order</li>
+        <li class="lis">Buisness</li>
+        <li class="lis">Information</li>
+      </ul>
+
+      <ul>
+        <li class="lis">Account</li>
+        <li class="lis">Create account</li>
+        <li class="lis">Sign In</li>
+        <li class="lis">Ios app</li>
+        <li class="lis">Android app</li>
+      </ul>
+      <h1 class="l logo">CoffeeHouse</h1>
+
+      <div class="get">
+        <div class="c">
+          <i class="fa-brands fa fa-facebook"></i>
+          <i class="fa-brands fa fa-instagram"></i>
+          <i class="fa-brands fa fa-twitter"></i>
+        </div>
+        <!-- <i class="fa-brands fa fa-"></i> -->
+        <!-- <input type="text" placeholder="search"> -->
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+</html>
